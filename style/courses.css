@@ -1,0 +1,504 @@
+
+.courses-main{
+    margin-top: 3em;
+    display: flex;
+    gap: 2em;
+}
+.container1{
+    width: 90%;
+    margin: auto;
+}
+.container2{
+    margin: auto;
+    padding-inline: 1em;
+}
+.mb-2{
+    margin-bottom: 2em;
+}
+main .right{
+    width: 33.33%;
+    background-color: var(--secondary-color);
+    color: #909090;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    height: fit-content;
+    padding-bottom: 1em;
+    text-align: center;
+}
+.right-header{
+    color: white;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    background-color: var(--yellow-color);
+    padding: 0.5em 3em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+.right-body img{
+    width: 100%;
+}
+.right-body .head{
+    color: var(--primary-color);
+    font-size: 1.7em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+.right-body .head span{
+    color: var(--yellow-color);
+    font-weight: 600;
+}
+.right-body img{
+    border-radius: 1em;
+}
+.money{
+    background-color: var(--yellow-color);
+    border-radius: 1em;
+    display: flex;
+    gap: 0.5em;
+    padding: 0.5em 1em;
+}
+.money-right{
+    color: white;
+}
+.money-right p{
+    font-size: 1.5em;
+   
+}
+.money-right .number{
+    font-size: 2em;
+    font-weight: 600;
+}
+.money-left{
+    padding-top: 0.5em;
+    color: #9B6900;
+}
+.money-left .first-p{
+    border-bottom: 1px solid #9B6900;
+}
+.schedule{
+    margin-block: 1em;
+    
+    padding-bottom: 1em;
+    border-bottom: 1px solid #909090;
+}
+.price{
+    display: flex;
+    gap:0.5em ;
+    
+}
+.price span{
+    font-weight: 600;
+}
+.schedule-details{
+    display: flex;
+    gap: 1em;
+}
+.schedule-details-right{
+    display: flex;
+    gap: 0.5em;
+    position: relative;
+}
+.schedule-details-right::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 0.5px;
+    background-color: #909090;
+    left: -5%;
+}
+.infos{
+    margin-block: 1em;
+}
+.info {
+    display: flex;
+    gap: 0.5em;
+}
+.first-span{
+    color: green;
+    padding-inline: 0.4em;
+}
+.first-icon{
+    color: goldenrod;
+}
+.second-icon{
+    color: green;
+}
+.right button{
+    display: block;
+    margin: auto;
+}
+.right .btn1{
+    margin-bottom: 0.5em;
+    color: #12376B;
+    background-color: var(--yellow-color);
+    padding: 0.4em 3.8em;
+    border-radius: 1em;
+    font-size: 1.5em;
+    border-color: transparent;
+}
+.right .btn2{
+    margin-bottom: 0.5em;
+    color: #909090;
+    background-color: transparent;
+    border-color: #909090;
+    padding: 0.4em 3em;
+    border-radius: 1em;
+    font-size: 1.5em;
+    border: 1px solid #909090;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+}
+.foot-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+.foot-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+.left p {
+    color: #909090;
+}
+
+.left{
+    width: 66.66%;
+}
+.left .head-img{
+    width: 100%;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+.left .first-p{
+    
+    font-size: 1.2em;
+    display: flex;
+    gap: 1em;
+    margin-bottom: 0.8em;
+}
+.left .first-p p{
+    color: var(--primary-color);
+}
+.left .first-p .border{
+    background-color: var(--primary-color);
+    height: 0.7px;
+    width: 10%;
+    margin-top: 0.7em;
+}
+.left h1{
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 0.8em;
+}
+.left h1 span{
+    color: var(--yellow-color);
+    font-weight: 700;
+}
+.diploma-about{
+    background-color: var(--secondary-color);
+    border-top-right-radius: 0.7em;
+    border-top-left-radius: 0.7em;
+    margin-block: 2em
+}
+.diploma-about-header{
+    background-color: var(--yellow-color);
+    padding-block: 0.5em;
+    padding-right: 1em;
+    border-top-right-radius: 0.7em;
+    border-top-left-radius: 0.7em;
+    color: white;
+}
+.diploma-about-content{
+    padding-right: 1.5em;
+    padding-block: 1em;
+}
+.diploma-about-content-info{
+    display: flex;
+    gap: 0.5em;
+}
+.diploma-about-content-info i{
+    color: var(--yellow-color);
+}
+.diploma-about button{
+    display: block;
+    margin: auto;
+    margin-top: 0.8em;
+    background-color: lightgray;
+    border-color: transparent;
+    padding: 0.4em 1.2em;
+    border-radius: 0.6em;
+}
+.diploma-content{
+   margin-bottom: 2em;
+}
+.diploma-content-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D7D7D7;
+    padding: 0.6em 1em;
+    color: #686868;
+    border-top-right-radius: 0.7em;
+    border-top-left-radius: 0.7em;
+    
+}
+.diploma-content-header h4{
+    font-weight: 700;
+    font-size: 1.3em;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #686868;
+    border-radius: 50%;
+    color: #818181;
+}
+
+.diploma-content-content{
+    background-color: var(--secondary-color);
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+.diploma-content-content-info{
+    margin-bottom: 1em;
+    border-radius: 0.8em;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6em 1em;
+    background-color: #EAEAEA;
+}
+.active{
+    display: block;
+    padding: 0;
+}
+.last{
+    opacity: 0.6;
+}
+.diploma-content-content-info .header{
+    background-color: #DBDBDB;
+    border-top-right-radius: 0.7em;
+    border-top-left-radius: 0.7em;
+    margin-bottom: 0.5em;
+}
+.diploma-content-content-info .header .container2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #DBDBDB;
+    padding: 0.6em 1em;
+    border-top-right-radius: 0.7em;
+    border-top-left-radius: 0.7em;
+}
+.active .content-info{
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+}
+.active .content{
+    padding-bottom: 0.5em;
+}
+.active .content i{
+    color: #616161;
+}
+.diploma-features{
+    
+}
+.diploma-features-header{
+    background-color: #D7D7D7;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8em 2em;
+    border-top-right-radius: 0.7em;
+    border-top-left-radius: 0.7em;
+
+}
+.diploma-features-header h2{
+    color: #686868;
+    font-weight: 700;
+}
+.diploma-features-header svg{
+    position: absolute;
+    top: -20%;
+    right: -1%;
+}
+.diploma-features-content{
+    background-color: #F5F5F5;
+    padding-top: 2em;
+    padding-inline: 1.5em;
+    padding-bottom: 1em;
+}
+.mb-1{
+    margin-bottom: 1em;
+}
+.feature{
+    display: flex;
+    
+   
+    
+
+}
+.feature-img{
+    width: 33.33%;
+    
+}
+.feature-img img{
+    width: 100%;
+    height: 100%;
+}
+.odd img{
+    border-top-right-radius:0.5em ;
+    border-bottom-right-radius:0.5em ;
+}
+.even img{
+    border-top-left-radius:0.5em ;
+    border-bottom-left-radius:0.5em ;
+}
+.feature-content{
+    padding:1em;
+    
+    color: white;
+   
+}
+.one{
+    background-color: #12376B;
+    border-top-left-radius:0.5em ;
+    border-bottom-left-radius:0.5em ;
+}
+.feature-content p{
+    color: white;
+    
+}
+.two{
+    background-color: #F04B25;
+    border-top-right-radius:0.5em ;
+    border-bottom-right-radius:0.5em ;
+}
+.three{
+    background-color: #296BD6;
+    border-top-left-radius:0.5em ;
+    border-bottom-left-radius:0.5em ;
+}
+.four{
+    background-color: #F4A905;
+    border-top-right-radius:0.5em ;
+    border-bottom-right-radius:0.5em ;
+}
+.five{
+    background-color: #12376B;
+    border-top-left-radius:0.5em ;
+    border-bottom-left-radius:0.5em ;
+}
+.six{
+    background-color: #F04B25;
+    border-top-right-radius:0.5em ;
+    border-bottom-right-radius:0.5em ;
+}
+.benefits-header{
+    background-color: #D7D7D7;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-top-right-radius:0.5em ;
+    border-top-left-radius:0.5em ;
+}
+.benefits-header h2{
+    color: #686868;
+    font-weight: 700;
+}
+.benefits-content{
+    padding-block: 1em;
+    background-color: var(--secondary-color);
+    padding-inline: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.benefit{
+    padding-block: 1.5em;
+    border-radius: 0.7em;
+    width: calc((100% - 1em) / 2);
+    color: white;
+}
+.benefit h2 {
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+.benefit p{
+    color: white;
+}
+.benefit-one{
+    background-color: #F04B25;
+}
+.benefit-two{
+    background-color: #286CD5;
+}
+.benefit-three{
+    background-color: var(--primary-color);
+}
+.benefit-four{
+    background-color: var(--yellow-color);
+}
+.teachers .header h2{
+    color: var(--primary-color);
+}
+.teachers .header span{
+    color: var(--blue-color);
+}
+.teachers .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teachers-container{
+    display: flex;
+    gap: 1em;
+}
+.instructor-card{
+    width: 40%;
+}
+
+
+.opinions .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cycles .section-header-container .section-header h2{
+        font-size: 2em;
+} 
+.cycles .section-header-container .section-header h2 span{
+    color: var(--blue-color);
+}
+.arrows-section-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cycles .section-header-container{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 900px) {
+    .courses-main{
+        flex-wrap: wrap;
+    }
+    main .right {
+        width: 100%;
+    }
+    main .left{
+        width: 100%;
+    }
+    .benefit{
+        width: 100%;
+    }
+}

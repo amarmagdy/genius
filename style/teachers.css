@@ -1,0 +1,178 @@
+body{
+    overflow-x: hidden;
+}
+.pride{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    position: relative;
+}
+.pride .content{
+    width: 50%;
+}
+.pride .content h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.pride .content h1 span{
+    font-weight: 700;
+    color: var(--yellow-color);
+}
+.pride .content p{
+    color: #616161;
+    margin-bottom: 1em;
+}
+.teacher-img {
+    background: #12376b40;
+    height: 13em;
+    position: relative;
+    border-radius: 0.8em 0.8em 0 0;
+    width: calc((100% - 3em) /3);
+}
+
+.teacher-img img{
+    position: absolute;
+    width: 100%;
+    height: 14em;
+    object-fit: contain;
+    bottom: 0;
+}
+.second-img{
+    background-color: #F04B2540;
+}
+.brands{
+    background: var(--secondary-color);
+    padding-block: .8em;
+    padding-inline: 1.8em;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10em;
+}
+.elite{
+    margin-top: 12em;
+    
+}
+.elite-content{
+    display: flex;
+    gap: 3em;
+}
+
+
+.elite .section-header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.teacher-card-content{
+    background-color: var(--secondary-color);
+    padding-right: 1em;
+    padding-block: 1em;
+    border-bottom-right-radius: 0.7em;
+    border-bottom-left-radius: 0.7em;
+}
+.teacher-card-content h3{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1.3em;
+}
+.teacher-card-content p{
+    color: #616161;
+}
+.teacher-image{
+    background: #12376b40;
+    height: 13em;
+    position: relative;
+    border-radius: 0.8em 0.8em 0 0;
+}
+.teacher-image img{
+    position: absolute;
+    width: 100%;
+    height: 14em;
+    object-fit: contain;
+    bottom: 0;
+}
+.elite .elite-right{
+    width: 25%;
+}
+.elite .elite-left{
+    width: 65%;
+    display: flex;
+}
+.elite-left-image{
+    background-color:rgba(245, 245, 245, 0.551) ;
+    padding-inline: 1em;
+    border-top-right-radius: 0.7em;
+    border-bottom-right-radius: 0.7em;
+}
+.elite-left-content h1{
+    color: var(--primary-color);
+    font-weight: 700;
+}
+.elite-left-content{
+    background-color: var(--secondary-color);
+    padding-right: 1em;
+    padding-left: 3em;
+    padding-block: 2em;
+    border-top-left-radius: 0.7em;
+    border-bottom-left-radius: 0.7em;
+}
+.elite-left-content p:nth-of-type(1){
+    font-weight: 700;
+    color: #616161;
+} 
+.elite-left-content p:nth-of-type(2){
+    color: #616161;
+}
+.mb-3{
+    margin-bottom: 3em;
+}
+.third-img{
+    position: absolute;
+    width: 254px;
+    left: -8%;
+}
+@media (max-width: 916px){
+    .brands{
+        position: static;
+        width: 100%;
+        transform: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+    .brands img {
+        width: calc((100% - 2em) / 2);
+        height: 4em;
+        /* object-fit: cover; */
+    }
+    .pride{
+        flex-direction: column;
+    }
+    .pride .content{
+        width: 100%;
+    }
+    .teacher-img{
+        width: 100%;
+    }
+    .elite-content{
+        flex-direction: column;
+    }
+    .elite .elite-right{
+        width: 100%;
+    }
+    .elite .elite-left{
+        width: 100%;
+    }
+    
+}
+@media (max-width: 1250px){
+    .third-img{
+        display: none;
+    }
+}
