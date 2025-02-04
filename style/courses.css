@@ -3,6 +3,7 @@
     margin-top: 3em;
     display: flex;
     gap: 2em;
+    overflow: hidden;
 }
 .container1{
     width: 90%;
@@ -460,13 +461,28 @@ main .right{
 
 .teachers-container{
     display: flex;
+    
     gap: 1em;
+    position: relative;
 }
 .instructor-card{
     width: 40%;
 }
 
-
+.instructor-card3{
+    position: absolute;
+    left: -11.35em;
+}
+.instructor-card3::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 3em;
+    background: linear-gradient(to right, #F5F5F5, #f5f5f559);
+    
+    top: 0;
+    left: 11em;
+}
 .opinions .header-container{
     display: flex;
     justify-content: space-between;
@@ -487,6 +503,11 @@ main .right{
 .cycles .section-header-container{
     display: flex;
     justify-content: space-between;
+}
+@media (max-width: 1440px) {
+    .instructor-card3{
+        visibility: hidden;
+    }
 }
 @media (max-width: 900px) {
     .courses-main{
